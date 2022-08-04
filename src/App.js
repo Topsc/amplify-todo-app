@@ -43,7 +43,8 @@ function App({ signOut }) {
       <Flex justifyContent={"space-between"}>
         <Heading level={1}>My notes app!</Heading>
         <Text>Gaohui Lin</Text>
-        <Text>Test</Text>
+			  <Text>Test</Text>
+			  <Text>jtt-42</Text>
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
       {notes.map((note) => (
