@@ -40,28 +40,21 @@ function App({ signOut }) {
 
   return (
     <Flex direction={"column"}>
-      <Flex justifyContent={'space-between'}>
-        <Heading level={1}>My notes app! Peng Dong</Heading>
-        <p>Ziqi</p>
-        <Body>Mandy</Body>
-        <h1>Old Iron 666</h1>
-        <Text>Arno_Xu</Text>
-        <body>Nikki</body>
-          <ol>
-            <li>
-              Boris Z
-            </li>
-          </ol>
+      <Flex justifyContent={"space-between"}>
+        <Heading level={1}>My notes app!</Heading>
+         <Heading level={2}>Gaohui Test JTT-42 boris z </Heading>
+          <Heading level={2}>My notes app!</Heading>
+        <Text>Gaohui Lin</Text>
+			  <Text>Test</Text>
+			  <Text>jtt-42</Text>
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
-      {notes.map(note => <Flex alignItems={'center'}>
-        <Text>{note.text}</Text>
-        <Button onClick={() => handleDeleteNote(note.id)}>Remove</Button>
-      </Flex>
-      {notes.map(note => <Flex alignItems={'center'}>
-        <Text>{note.text}</Text>
-        <Button onClick={() => handleDeleteNote(note.id)}>Remove</Button>
-      </Flex>)}
+      {notes.map((note) => (
+        <Flex alignItems={"center"}>
+          <Text>{note.text}</Text>
+          <Button onClick={() => handleDeleteNote(note.id)}>Remove</Button>
+        </Flex>
+      ))}
       <Button onClick={handleCreateNote}>Add Note</Button>
     </Flex>
   );
