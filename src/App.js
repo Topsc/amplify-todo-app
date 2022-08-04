@@ -42,6 +42,8 @@ function App({ signOut }) {
     <Flex direction={"column"}>
       <Flex justifyContent={"space-between"}>
         <Heading level={1}>My notes app!</Heading>
+         <Heading level={2}>Gaohui Test JTT-42 boris z </Heading>
+          <Heading level={2}>My notes app!</Heading>
         <Text>Gaohui Lin</Text>
 			  <Text>Test</Text>
 			  <Text>jtt-42</Text>
