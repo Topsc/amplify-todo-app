@@ -47,7 +47,6 @@ function App({ signOut }) {
         <ol>
             <li>Dexter</li>
         </ol>
->>>>>>> 691ce2aa482dd73cee2949798f68ded52236eb41
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
       {notes.map(note => <Flex alignItems={'center'}>
