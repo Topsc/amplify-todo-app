@@ -45,7 +45,7 @@ function App({ signOut }) {
         <Heading level={1}>My notes app!</Heading>
           <ol>
             <li>
-              Boris
+              Boris Z
             </li>
           </ol>
         <Button onClick={signOut}>Sign Out</Button>
