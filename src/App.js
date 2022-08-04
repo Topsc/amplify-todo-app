@@ -44,6 +44,10 @@ function App({ signOut }) {
         <Heading level={1}>My notes app! Jenny Sun</Heading>
         <Heading level={1}>My notes app!</Heading>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+          <h1>Old Iron 666</h1>
+>>>>>>> ef829e87f1c4ec89a81f56589cea8fcd3de8ba12
         <Text>Arno_Xu</Text>
 =======
 <<<<<<< HEAD
