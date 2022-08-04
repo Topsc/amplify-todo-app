@@ -43,7 +43,17 @@ function App({ signOut }) {
       <Flex justifyContent={'space-between'}>
         <Heading level={1}>My notes app! Jenny Sun</Heading>
         <Heading level={1}>My notes app!</Heading>
+<<<<<<< HEAD
         <Text>Arno_Xu</Text>
+=======
+<<<<<<< HEAD
+        <body>Nikki</body>
+=======
+        <ol>
+            <li>Dexter</li>
+        </ol>
+>>>>>>> 691ce2aa482dd73cee2949798f68ded52236eb41
+>>>>>>> 3e3e9b3b9f6f369fda03c402615bed0c4f94caa6
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
       {notes.map(note => <Flex alignItems={'center'}>
