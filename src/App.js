@@ -44,8 +44,21 @@ function App({ signOut }) {
         <Heading level={1}>My notes app! Jenny Sun</Heading>
         <Heading level={1}>My notes app!</Heading>
         <p>Ziqi</p>
+        <Body>Mandy</Body>
+        <h1>Old Iron 666</h1>
         <Text>Arno_Xu</Text>
+        <body>Nikki</body>
+          <ol>
+            <li>
+              Boris Z
+            </li>
+          </ol>
+
         <Button onClick={signOut}>Sign Out</Button>
+      </Flex>
+      {notes.map(note => <Flex alignItems={'center'}>
+        <Text>{note.text}</Text>
+        <Button onClick={() => handleDeleteNote(note.id)}>Remove</Button>
       </Flex>
       {notes.map(note => <Flex alignItems={'center'}>
         <Text>{note.text}</Text>
