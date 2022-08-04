@@ -41,8 +41,10 @@ function App({ signOut }) {
   return (
     <Flex direction={"column"}>
       <Flex justifyContent={'space-between'}>
+        <Heading level={1}>My notes app! Jenny Sun</Heading>
         <Heading level={1}>My notes app!</Heading>
         <p>Ziqi</p>
+        <Text>Arno_Xu</Text>
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
       {notes.map(note => <Flex alignItems={'center'}>
