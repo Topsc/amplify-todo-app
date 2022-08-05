@@ -50,6 +50,8 @@ function App({ signOut }) {
   return (
     <Flex direction={"column"}>
       <Flex justifyContent={"space-between"}>
+        <Heading level={1}>My notes app!</Heading>
+        <body> zhangrunqing V2</body>
         <Heading level={1}>My notes app! cass here</Heading>
         <Heading level={2}>Student name</Heading>
         <h1>Shawnssc1994</h1>
@@ -58,6 +60,12 @@ function App({ signOut }) {
           <li>Test</li>
           <li>jtt-42</li>
           <li>Gaohui Test JTT-42 boris z </li>
+          <li>zhangrunqing</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>change me</li>
           <li>Declan</li>
           <li>hahahahahah007</li>
           <li>Shelton</li>
