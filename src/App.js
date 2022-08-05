@@ -61,7 +61,7 @@ function App({ signOut }) {
           <li>Declan</li>
           <li>hahahahahah007</li>
           <li>Shelton</li>
-          <li>change me</li>
+          <li>Skye</li>
           <li>change me</li>
           <li>change me</li>
           <li>Hello from Lina</li>
