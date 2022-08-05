@@ -67,9 +67,9 @@ function App({ signOut }) {
           <li> Liz Q</li>
           <li>Devops Devops</li>
           <li>Gaohui Lin</li>
+          <li>Nikki</li>
           <li>Hello from Lina</li>
         </ul>
-
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
       {notes.map((note) => (
