@@ -52,11 +52,22 @@ function App({ signOut }) {
       <Flex justifyContent={"space-between"}>
         <Heading level={1}>My notes app!</Heading>
         <Heading level={2}>Student name</Heading>
+        <h1>Shawnssc1994</h1>
         <ul>
           <li>Gaohui Lin</li>
           <li>Test</li>
           <li>jtt-42</li>
           <li>Gaohui Test JTT-42 boris z </li>
+          <li>Declan</li>
+          <li>hahahahahah007</li>
+          <li>Shelton</li>
+          <li>Skye</li>
+          <li>hahahahah xixixixix</li>
+          <li>Shelton</li>
+          <li> Liz Q</li>
+          <li>Devops Devops</li>
+          <li>Change me</li>
+          <li>Hello from Lina</li>
         </ul>
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
@@ -66,7 +77,12 @@ function App({ signOut }) {
           <Button onClick={() => handleDeleteNote(note.id)}>Remove</Button>
         </Flex>
       ))}
-      <Button onClick={handleCreateNote}>Hi this is lina from JTT-12</Button>
+      <Button onClick={handleCreateNote}>Add Note</Button>
+
+      <h1>practice practice </h1>
+      <h2>devops devops</h2>
+
+      <h3>study hard</h3>
     </Flex>
   );
 }
