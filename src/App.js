@@ -44,10 +44,10 @@ function App({ signOut }) {
         <Heading level={1}>My notes app!</Heading>
         <Heading level={2}>Student name</Heading>
         <ul>
-          <li>change me</li>
-          <li>change me</li>
-          <li>change me</li>
-          <li>change me</li>
+          <li>Gaohui Lin</li>
+          <li>Test</li>
+          <li>jtt-42</li>
+          <li>Gaohui Test JTT-42 boris z </li>
           <li>change me</li>
           <li>change me</li>
           <li>change me</li>
