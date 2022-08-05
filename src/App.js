@@ -53,6 +53,8 @@ function App({ signOut }) {
 
       <h1>practice practice </h1>
       <h2>devops devops</h2>
+
+      <h3>study hard</h3>
     </Flex>
   );
 }
