@@ -51,14 +51,14 @@ function App({ signOut }) {
     <Flex direction={"column"}>
       <Flex justifyContent={"space-between"}>
         <Heading level={1}>My notes app!</Heading>
-        =======
+
         <Heading level={2}>Student name</Heading>
         <ul>
           <li>Gaohui Lin</li>
           <li>Test</li>
           <li>jtt-42</li>
           <li>Gaohui Test JTT-42 boris z </li>
-          <li>change me</li>
+          <li>Declan</li>
           <li>change me</li>
           <li>change me</li>
           <li>change me</li>
@@ -75,6 +75,11 @@ function App({ signOut }) {
         </Flex>
       ))}
       <Button onClick={handleCreateNote}>Add Note</Button>
+
+      <h1>practice practice </h1>
+      <h2>devops devops</h2>
+
+      <h3>study hard</h3>
     </Flex>
   );
 }
