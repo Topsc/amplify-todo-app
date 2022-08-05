@@ -50,6 +50,9 @@ function App({ signOut }) {
         <Button onClick={() => handleDeleteNote(note.id)}>Remove</Button>
       </Flex>)}
       <Button onClick={handleCreateNote}>Add Note</Button>
+
+      <h1>practice practice </h1>
+      <h2>devops devops</h2>
     </Flex>
   );
 }
