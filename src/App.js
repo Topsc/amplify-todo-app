@@ -50,7 +50,7 @@ function App({ signOut }) {
   return (
     <Flex direction={"column"}>
       <Flex justifyContent={"space-between"}>
-        <Heading level={1}>My notes app!</Heading>
+        <Heading level={1}>My notes app!jack</Heading>
         =======
         <Heading level={2}>Student name</Heading>
         <ul>
