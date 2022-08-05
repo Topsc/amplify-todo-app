@@ -63,7 +63,7 @@ function App({ signOut }) {
           <li>Shelton</li>
           <li>Skye</li>
           <li>hahahahah xixixixix</li>
-          <li>change me</li>
+          <li>Shelton</li>
           <li>Hello from Lina</li>
         </ul>
         <Button onClick={signOut}>Sign Out</Button>
