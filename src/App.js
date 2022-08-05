@@ -40,14 +40,29 @@ function App({ signOut }) {
 
   return (
     <Flex direction={"column"}>
-      <Flex justifyContent={'space-between'}>
+      <Flex justifyContent={"space-between"}>
         <Heading level={1}>My notes app!</Heading>
+        <Heading level={2}>Student name</Heading>
+        <ul>
+          <li>change me</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>change me</li>
+        </ul>
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
-      {notes.map(note => <Flex alignItems={'center'}>
-        <Text>{note.text}</Text>
-        <Button onClick={() => handleDeleteNote(note.id)}>Remove</Button>
-      </Flex>)}
+      {notes.map((note) => (
+        <Flex alignItems={"center"}>
+          <Text>{note.text}</Text>
+          <Button onClick={() => handleDeleteNote(note.id)}>Remove</Button>
+        </Flex>
+      ))}
       <Button onClick={handleCreateNote}>Add Note</Button>
     </Flex>
   );
