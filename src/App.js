@@ -69,6 +69,7 @@ function App({ signOut }) {
           <li>Gaohui Lin</li>
           <li>Nikki</li>
           <li>Hello from Lina</li>
+          <li>cassie</li>
         </ul>
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
