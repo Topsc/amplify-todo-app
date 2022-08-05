@@ -59,14 +59,13 @@ function App({ signOut }) {
           <li>jtt-42</li>
           <li>Gaohui Test JTT-42 boris z </li>
           <li>Declan</li>
-          <li>change me</li>
+          <li>hahahahahah007</li>
           <li>change me</li>
           <li>change me</li>
           <li>change me</li>
           <li>change me</li>
           <li>Hello from Lina</li>
         </ul>
-
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
       {notes.map((note) => (
