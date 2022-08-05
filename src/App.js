@@ -51,6 +51,13 @@ function App({ signOut }) {
     <Flex direction={"column"}>
       <Flex justifyContent={"space-between"}>
         <Heading level={1}>My notes app!</Heading>
+        <Heading level={2}>Student name</Heading>
+        <ul>
+          <li>Gaohui Lin</li>
+          <li>Test</li>
+          <li>jtt-42</li>
+          <li>Gaohui Test JTT-42 boris z </li>
+        </ul>
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
       {notes.map((note) => (
