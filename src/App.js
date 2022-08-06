@@ -43,6 +43,8 @@ function App({ signOut }) {
       <Flex justifyContent={'space-between'}>
         <Heading level={1}>My notes app! Jenny Sun</Heading>
         <Heading level={1}>My notes app!</Heading>
+
+    <h1>Hi Lawrence </h1>
           <h1>Old Iron 666</h1>
         <Text>Arno_Xu</Text>
         <Button onClick={signOut}>Sign Out</Button>
