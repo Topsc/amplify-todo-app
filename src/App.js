@@ -54,7 +54,7 @@ function App({ signOut }) {
         <body> zhangrunqing V2</body>
         <body> Eric was here! </body>
         <Heading level={1}>My notes app! cass here</Heading>
-        <Heading level={2}>Student name</Heading>
+        <Heading level={2}>Student name: Leon</Heading>
         <h1>Shawnssc1994</h1>
         <ul>
           <li>Eric Jobs From JTT-52 </li>
