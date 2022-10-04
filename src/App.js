@@ -54,8 +54,74 @@ function App({ signOut }) {
         <body> zhangrunqing V2</body>
         <body> Eric was here! </body>
         <Heading level={1}>My notes app! cass here</Heading>
+<<<<<<< HEAD
         <Heading level={2}>Student name</Heading>
         <h1>leon</h1>
+||||||| merged common ancestors
+        <Heading level={2}>Student name</Heading>
+        <h1>Shawnssc1994</h1>
+        <ul>
+          <li>Eric Jobs From JTT-52 </li>
+          <li>Gaohui Lin</li>
+          <li>Test</li>
+          <li>jtt-42</li>
+          <li>Gaohui Test JTT-42 boris z </li>
+          <li>zhangrunqing</li>
+          <li>Hi Lawrence</li>
+          <li>Old Iron 666</li>
+          <li>Arno_Xu</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>Declan</li>
+          <li>hahahahahah007</li>
+          <li>Shelton</li>
+          <li>Skye</li>
+          <li>hahahahah xixixixix</li>
+          <li>Shelton</li>
+          <li> Liz Q</li>
+          <li>Devops Devops</li>
+          <li>Gaohui Lin</li>
+          <li>Nikki</li>
+          <li>Hello from Lina</li>
+          <li>cassie</li>
+	        <li>hello from jack</li>
+          <li>Sylvon</li>
+	  <li>Hiiii from Hayley</li>
+
+        </ul>
+=======
+        <Heading level={2}>Student name: Leon</Heading>
+        <h1>Shawnssc1994</h1>
+        <ul>
+          <li>Eric Jobs From JTT-52 </li>
+          <li>Gaohui Lin</li>
+          <li>Test</li>
+          <li>jtt-42</li>
+          <li>Gaohui Test JTT-42 boris z </li>
+          <li>zhangrunqing</li>
+          <li>Hi Lawrence</li>
+          <li>Old Iron 666</li>
+          <li>Arno_Xu</li>
+          <li>change me</li>
+          <li>change me</li>
+          <li>Declan</li>
+          <li>hahahahahah007</li>
+          <li>Shelton</li>
+          <li>Skye</li>
+          <li>hahahahah xixixixix</li>
+          <li>Shelton</li>
+          <li> Liz Q</li>
+          <li>Devops Devops</li>
+          <li>Gaohui Lin</li>
+          <li>Nikki</li>
+          <li>Hello from Lina</li>
+          <li>cassie</li>
+	        <li>hello from jack</li>
+          <li>Sylvon</li>
+	  <li>Hiiii from Hayley</li>
+
+        </ul>
+>>>>>>> dd656189e1b1eef0da7356830e212fafb82417a9
         <Button onClick={signOut}>Sign Out</Button>
       </Flex>
       {notes.map((note) => (
